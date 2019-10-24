@@ -15,7 +15,7 @@ pipeline {
           steps {
             sh '''cd /Users/boondock/Documents/GitHub/SimpleConfigPipe
 
-git pull'''
+sudo git pull'''
           }
         }
       }
