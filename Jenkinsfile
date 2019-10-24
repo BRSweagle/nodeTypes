@@ -13,7 +13,9 @@ pipeline {
         }
         stage('Shell') {
           steps {
-            sh 'cd /Users/boondock/Documents/GitHub/SimpleConfigPipe'
+            sh '''cd /Users/boondock/Documents/GitHub/SimpleConfigPipe
+
+git pull'''
           }
         }
       }
