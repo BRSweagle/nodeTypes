@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Shell') {
           steps {
-            sh 'cd /Users/boondock/documents'
+            sh 'cd /Users/boondock/Documents/GitHub/SimpleConfigPipe'
           }
         }
       }
